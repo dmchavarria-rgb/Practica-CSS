@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222222;
+    line-height: 1.6;
+}
+
+h1{
+    margin: 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2 {
+    color: #1b7505;
+    margin-top: 0;
+    border-bottom: 2px solid #dba112;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #0d1910;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    color: #1b7505;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    padding: 28px 16px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    margin: 5px 0;
+}
+
+footer address {
+    font-style: normal;
+}
+
+nav {
+    background-color: #dba112;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    background-color: white;
+    color: #0d1910;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid #a8a8a7;
+}
+
+nav a:hover {
+    background-color: #1b7505;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*=================
+BLOQUES 6: ESTRUCTURA PRINCIPAL
+===================*/
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}

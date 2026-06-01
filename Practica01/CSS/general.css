@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222222;
+    line-height: 1.6;
+}
+
+h1{
+    margin: 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2 {
+    color: #1b7505;
+    margin-top: 0;
+    border-bottom: 2px solid #dba112;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #0d1910;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    color: #1b7505;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    padding: 28px 16px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    margin: 5px 0;
+}
+
+footer address {
+    font-style: normal;
+}
+
+nav {
+    background-color: #dba112;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    background-color: white;
+    color: #0d1910;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid #a8a8a7;
+}
+
+nav a:hover {
+    background-color: #0e8117;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*=================
+BLOQUES 6: ESTRUCTURA PRINCIPAL
+===================*/
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+/* ============================================================
+   BLOQUE 1: CONFIGURACIÓN GENERAL
+   ============================================================ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222222;
+    line-height: 1.6;
+}
+
+/* ============================================================
+   BLOQUE 2: TÍTULOS, PÁRRAFOS Y ENLACES
+   ============================================================ */
+h1 {
+    margin: 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+h2 {
+    color: #1b7505;
+    margin-top: 0;
+    border-bottom: 2px solid #dba112;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #0d1910;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    color: #1b7505;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================================
+   BLOQUE 3: ELEMENTOS SEMÁNTICOS PRINCIPALES
+   ============================================================ */
+header {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    padding: 28px 16px;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+footer address {
+    font-style: normal;
+}
+
+/* ============================================================
+   BLOQUE 4: MENÚ DE NAVEGACIÓN
+   ============================================================ */
+nav {
+    background-color: #dba112;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    background-color: white;
+    color: #0d1910;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid #a8a8a7;
+}
+
+nav a:hover {
+    background-color: #1b7505;
+    color: white;
+    text-decoration: none;
+}
+
+/* ============================================================
+   BLOQUE 5: CONTENIDO Y SECCIONES
+   ============================================================ */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+section article {
+    margin-bottom: 20px;
+}
+
+/* ============================================================
+   BLOQUE 6: IMÁGENES Y MULTIMEDIA
+   ============================================================ */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+    border: 2px solid #1b7505;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+video, audio, iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* ============================================================
+   BLOQUE 7: LISTAS
+   ============================================================ */
+ul, ol {
+    margin: 15px;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* ============================================================
+   BLOQUE 8: FORMULARIOS
+   ============================================================ */
+form {
+    margin: 20px auto;
+    width: 60%;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #1b7505;
+    color: #fff;
+}
+
+/* ============================================================
+   BLOQUE 9: TABLAS
+   ============================================================ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+thead {
+    background-color: #1b7505;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ============================================================
+   BLOQUE 10: PIE DE PÁGINA
+   ============================================================ */
+footer {
+    background-color: #0d1910;
+    color: #f4f6f8;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
